@@ -1,0 +1,17 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    padding: 25px;
+    border-radius: 5px;     /* Makinf Curve on the edges */ 
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);      /* card-container comes outward */
+    transition: transform 0.25s ease-out;   /* transition speed  */
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
